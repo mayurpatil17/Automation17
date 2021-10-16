@@ -21,7 +21,7 @@ public class RunTimePolymorphismLaunchBrowser {
 			driver.manage().window().maximize();//maximize the browser
 			driver.get("https://www.google.com");//launch the web application
 			driver.close();//Close the browser
-			
+			sc.close();
 		}
 		
 		else if(browserValue.equalsIgnoreCase("firefox"))

@@ -3,7 +3,7 @@ package QSP;
 public class Demo {
 
 	public static void main(String[] args) {
-		System.out.println("this is demo2 class");
+		System.out.println("this is demo class");
 	}
 
 }
