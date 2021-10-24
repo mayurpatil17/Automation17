@@ -21,5 +21,6 @@ public static void main(String[] args) throws InterruptedException {
 	
 	Actions act = new Actions(driver);
 	act.moveToElement(target).perform(); //perform is must
+	driver.findElement(By.xpath("//a[.='Engagement']")).click();
 }
 }
