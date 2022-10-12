@@ -17,7 +17,7 @@ public class maximizeSpecificChildBrowser{
 		String parentHandle = driver.getWindowHandle();
 		Set<String> allHandles = driver.getWindowHandles();
 		
-		for(String wh:allHandles)
+		/*for(String wh:allHandles)
 		{
 			driver.switchTo().window(wh);
 			String title = driver.getTitle();
@@ -34,7 +34,7 @@ public class maximizeSpecificChildBrowser{
 			{
 				driver.close();
 			}
-		}
+		}*/
 	}
 
 }

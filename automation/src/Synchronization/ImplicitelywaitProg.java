@@ -20,7 +20,7 @@ public class ImplicitelywaitProg {
 		
 		driver.findElement(By.xpath("//span[.='Cart']")).click();
 		
-		driver.findElement(By.xpath("//button[.='surajLogin']")).click();
+		driver.findElement(By.xpath("//button[.='Login']")).click();
 		
 		driver.close();
 

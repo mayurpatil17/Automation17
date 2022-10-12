@@ -25,15 +25,7 @@ public class readMultipleData{
 			String data = cell.getStringCellValue();
 			System.out.println(data);
 		}
-		
-		
-		
-		
-		
-		
-		
-	
-		
+			
 	}
 
 }

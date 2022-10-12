@@ -10,6 +10,10 @@ public class LoginPage {
 
 	//Declaration
 
+	
+	
+
+
 	@FindBy(name="username") private WebElement usn;
 	@FindBy(name="pwd") private WebElement pass;
 	@FindBy(id="loginButton") private WebElement loginButton;

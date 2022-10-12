@@ -25,6 +25,7 @@ public class ScrollTillParticularWebElement {
 		int Yaxis = loc.getY();
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("window.scrollBy("+Xaxis+","+(Yaxis-200)+")");
+		jse.executeScript("window.scrollBy("+Xaxis+","+(Yaxis-500)+")");
 		
 		
 	}

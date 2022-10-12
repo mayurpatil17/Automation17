@@ -17,6 +17,5 @@ public class ReadpropertyFile {
 	String data = prop.getProperty(key);
 	return data;
 	}
-	
 
 }

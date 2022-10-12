@@ -19,7 +19,6 @@ public class ContextClickForRightClick {
 		Thread.sleep(2000);
 		
 		WebElement target = driver.findElement(By.id("loginButton"));
-		
 		Actions act = new Actions(driver);
 		act.contextClick(target).perform(); //perform is must,without it we can't perform any action on webElement.
 	}

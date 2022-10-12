@@ -10,11 +10,10 @@ public class cssSelector {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		Thread.sleep(3000);
+		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
-		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input[name='q']")).sendKeys("Automation",Keys.ENTER);
-		Thread.sleep(3000);
+		
 		driver.close();
 		
 	}

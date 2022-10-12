@@ -20,7 +20,5 @@ public class UsingRemoteWebDriver {
 		File dest = new File("./Screenshots/google.jpeg");
 		Files.copy(src, dest);
 		driver.close();
-
 	}
-
 }

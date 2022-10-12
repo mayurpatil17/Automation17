@@ -18,9 +18,9 @@ public class WriteTheDataFromExcelFile {
 		FileInputStream fis = new FileInputStream("./Data/Testdata.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);//Create() will make the excel file.
 		Sheet sh = wb.getSheet("City");//specify sheetname
-		Row ro = sh.getRow(1);//specify which row
+		Row ro = sh.getRow(5);//specify which row
 		
-		Cell cell = ro.createCell(1);//specify create cell
+		Cell cell = ro.createCell(3);//specify create cell
 		cell.setCellValue("U-Mumba");//store the data
 		
 		FileOutputStream fos = new FileOutputStream("./Data/Testdata.xlsx");

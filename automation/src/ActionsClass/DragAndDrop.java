@@ -1,5 +1,6 @@
 package ActionsClass;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -14,7 +15,7 @@ public class DragAndDrop {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");                                                                                            
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.get("file:///C:/Users/HP/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/dragdrop.html");  // DragAndDropLink
 		Thread.sleep(2000);
 		

@@ -24,6 +24,9 @@ public class orangeHRMUsingXpath {
 		driver.findElement(By.xpath("//input[@id='employeeId']")).sendKeys("123");	
 		driver.findElement(By.xpath("//input[@id='btnSave']")).click();
 		Thread.sleep(3000);
-		driver.close();
+		driver.quit();
+		
 	}
+	
+	
 }

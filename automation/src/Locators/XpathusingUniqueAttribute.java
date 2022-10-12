@@ -17,7 +17,7 @@ public class XpathusingUniqueAttribute {
 		driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");;
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
-		driver.close();
+		
 		
 		
 		

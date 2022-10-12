@@ -3,11 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGFlags.Flag7">
+      <class name="TakeScreenshotDynamically.TestScript">
         <methods>
-          <include name="login"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testFlipkart4"/>
+          <include name="testFlipkart1"/>
+          <include name="testFlipkart2"/>
+          <include name="testFlipkart5"/>
+          <include name="testFlipkart3"/>
         </methods>
-      </class> <!-- TestNGFlags.Flag7 -->
+      </class> <!-- TakeScreenshotDynamically.TestScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
